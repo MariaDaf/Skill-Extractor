@@ -1,0 +1,5 @@
+data/annotated.json
+data/preprocessing.log
+.venv/
+__pycache__/
+*.pyc
