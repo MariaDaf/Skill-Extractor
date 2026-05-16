@@ -3,3 +3,7 @@ data/preprocessing.log
 .venv/
 __pycache__/
 *.pyc
+
+runs/
+
+model/*.pt
