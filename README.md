@@ -53,7 +53,7 @@ Skill-Extractor/
 
 ------------------------------------------------------------------------------
 
-## Part 1 — Data Preparation and Preprocessing
+# Part 1 — Data Preparation and Preprocessing
 
 Part 1 prepares the annotated job-ad dataset for BERT training.
 
@@ -67,7 +67,7 @@ model/id2label.json
 
 The datasets contain token IDs, attention masks, and token-level labels. Padding labels are stored as -100 so that they are ignored during training.
 
-## Part 2 — BERT Training and Evaluation
+# Part 2 — BERT Training and Evaluation
 
 Part 2 trains a BERT token-classification model to predict the zone of each token in a job advertisement.
 
@@ -102,7 +102,7 @@ Required label mapping:
 
 model/id2label.json
 
-##Part 3 — Web Crawling and Gemini Skill Extraction
+# Part 3 — Web Crawling and Gemini Skill Extraction
 
 Part 3 applies the full pipeline to fresh real-world job advertisements.
 
@@ -138,7 +138,7 @@ Example output:
   "data visualization"
 ]
 
-## Limitations
+# Limitations
 
 The pipeline works end-to-end, but the main limitation is the BERT zone classifier. If BERT extracts a clean Fähigkeiten und Inhalte section, Gemini can produce useful skill phrases. If BERT produces fragmented or noisy text, the quality of the final skill list decreases.
 
