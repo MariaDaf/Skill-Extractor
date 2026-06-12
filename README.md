@@ -44,8 +44,7 @@ Skill-Extractor/
 │   ├── task4_crawler.py
 │   └── task5_pipeline.py
 │
-├── Part1_Documentation.docx
-├── Part2_Documentation_extension.docx
+├── Final_Project_Report.pdf
 ├── Skill_Extraction_Project.pdf
 ├── Team_Agreement_Advanced_Gen_AI.pdf
 ├── .gitignore
